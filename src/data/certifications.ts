@@ -13,6 +13,16 @@ export type Certification = {
 }
 
 export const certifications: Certification[] = [
+
+  {
+    title: 'Développement Front-End moderne avec React',
+    issuer: 'MLIAEdu',
+    issueDate: '2026-03',
+    skills: ['React', 'TypeScript', 'Vite', 'Tailwind CSS'],
+    tags: ['Frontend', 'React'],
+    status: 'active',
+  },
+
   {
     title: 'Certification Professionnelle Hibernate & JPA',
     issuer: 'MLIAEdu',
